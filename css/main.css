@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#section {
+	display: flex;  /* defaults to row layout */
+	justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+	flex-direction: column; 
+}
+
+#input-section {
+	display: flex;  /* defaults to row layout */
+	justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+	flex-direction: row; 
+    display: inline-block;
+}
+
+button {
+    color: #fff;
+    background-color: #999;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+button:hover {
+    color: #999;
+    background-color: #fff;
+}
