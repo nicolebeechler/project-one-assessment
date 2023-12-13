@@ -11,14 +11,23 @@ updateDisplay()
 counterPlusEl.addEventListener("click", () => {
     count += parseInt(inputNumber.value)
     updateDisplay()
+    negativeNum(count)
 })
 
 counterMinusEl.addEventListener("click", () => {
     count -= parseInt(inputNumber.value)
     updateDisplay()
+    negativeNum(count)
 })
 
 function updateDisplay(){
-    counterDisplayEl.innerText = count
+    counterDisplayEl.innerHTML = count
 }
 
+function negativeNum(value){
+    if (value < 0) {
+        counterDisplayEl.style.color = '#f00'
+    } else {
+        counterDisplayEl.style.color = ''
+    }
+}

@@ -8,17 +8,17 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#section {
-	display: flex;  /* defaults to row layout */
-	justify-content: center;  /* centers items horizontally in row layout */
-	align-items: center;  /* centers vertically in row layout */
+#counter-section {
+	display: flex;  
+	justify-content: center; 
+	align-items: center; 
 	flex-direction: column; 
 }
 
 #input-section {
-	display: flex;  /* defaults to row layout */
-	justify-content: center;  /* centers items horizontally in row layout */
-	align-items: center;  /* centers vertically in row layout */
+	display: flex;  
+	justify-content: center; 
+	align-items: center; 
 	flex-direction: row; 
     display: inline-block;
 }
